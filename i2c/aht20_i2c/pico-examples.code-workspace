@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"cmake.statusbar.advanced": {
+			"debug": {
+				"visibility": "hidden"
+			},
+			"launch": {
+				"visibility": "hidden"
+			},
+			"build": {
+				"visibility": "hidden"
+			},
+			"buildTarget": {
+				"visibility": "hidden"
+			}
+		},
+		"cortex-debug.variableUseNaturalFormat": false
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+		]
+	}
+}

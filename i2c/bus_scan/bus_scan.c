@@ -68,7 +68,13 @@ int main() {
         else
             ret = i2c_read_blocking(i2c_default, addr, &rxdata, 1, false);
 
-        printf(ret < 0 ? "." : "@");
+        if (ret < 0){
+            printf(".");
+        }
+        else{
+            printf("@");
+        }
+        // printf(ret < 0 ? "." : "@");
         printf(addr % 16 == 15 ? "\n" : "  ");
     }
     printf("Done.\n");

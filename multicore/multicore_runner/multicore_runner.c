@@ -58,6 +58,10 @@ int main() {
     // This example dispatches arbitrary functions to run on the second core
     // To do this we run a dispatcher on the second core that accepts a function
     // pointer and runs it
+    multicore_reset_core1();
+
+    sleep_ms(100);
+
     multicore_launch_core1(core1_entry);
 
     multicore_fifo_push_blocking((uintptr_t) &factorial);
