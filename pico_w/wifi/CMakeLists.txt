@@ -15,7 +15,6 @@ else()
     add_subdirectory(tcp_client)
     add_subdirectory(tcp_server)
     add_subdirectory(freertos)
-    add_subdirectory(pico-w-webserver)
     add_subdirectory(pool-webserver)
     add_subdirectory(udp_beacon)
 
